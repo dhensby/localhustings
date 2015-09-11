@@ -1,0 +1,9 @@
+{
+  "name": "default",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dhensby/localhustings",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~4.0.0"
+  }
+}

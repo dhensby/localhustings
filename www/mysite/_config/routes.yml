@@ -1,0 +1,14 @@
+---
+Name: mysiteroutes
+Before: '*'
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+  - '#modelascontrollerroutes'
+  - '#adminroutes'
+---
+Director:
+  rules:
+    '': 'RootURLController'
+    'home': 'RootURLController'
+    'ward': 'WardController'
